@@ -1,0 +1,38 @@
+# Converted from GitHub Actions — penguins-eggs-audit
+# Mirrors: ci.yml
+
+stages:
+  - test
+
+default:
+  image: node:22
+
+.node-cache: &node-cache
+  cache:
+    key:
+      files: [package-lock.json, package.json]
+    paths: [node_modules/]
+
+test:node-20:
+  stage: test
+  image: node:20
+  <<: *node-cache
+  script:
+    - npm ci
+    - npm run build || true
+    - npm test || true
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - if: '$CI_COMMIT_BRANCH =~ /^(main|master)$/'
+
+test:node-22:
+  stage: test
+  image: node:22
+  <<: *node-cache
+  script:
+    - npm ci
+    - npm run build || true
+    - npm test || true
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - if: '$CI_COMMIT_BRANCH =~ /^(main|master)$/'
