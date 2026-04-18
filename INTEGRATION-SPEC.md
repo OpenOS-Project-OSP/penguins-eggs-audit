@@ -111,7 +111,7 @@ eggs download --version 10.0.0  # specific version
 
 **CLI:**
 ```bash
-eggs wardrobe get https://github.com/Interested-Deving-1896/penguins-wardrobe/tree/main/costumes/colibri
+eggs wardrobe get https://gitlab.com/OSPF1896/penguins-wardrobe/tree/main/costumes/colibri
 eggs wardrobe get <repo-url>/costumes/<name> --dest /path/to/local/wardrobe
 ```
 
