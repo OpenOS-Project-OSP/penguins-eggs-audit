@@ -4,7 +4,7 @@
 
 set -eu
 
-REPO_URL="https://github.com/Interested-Deving-1896/penguins-eggs"
+REPO_URL="https://gitlab.com/OSPF1896/penguins-eggs"
 INSTALL_DIR="/usr/local/lib/penguins-eggs"
 BIN_LINK="/usr/local/bin/eggs"
 

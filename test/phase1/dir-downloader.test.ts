@@ -25,7 +25,7 @@ describe('DirDownloader', () => {
   describe('parseGitHubUrl()', () => {
     it('should parse full GitHub URL with tree path', () => {
       const result = DirDownloader.parseGitHubUrl(
-        'https://github.com/Interested-Deving-1896/penguins-wardrobe/tree/main/costumes/colibri'
+        'https://gitlab.com/OSPF1896/penguins-wardrobe/tree/main/costumes/colibri'
       )
 
       expect(result).to.not.be.null
@@ -37,7 +37,7 @@ describe('DirDownloader', () => {
 
     it('should parse URL without tree path', () => {
       const result = DirDownloader.parseGitHubUrl(
-        'https://github.com/Interested-Deving-1896/penguins-wardrobe'
+        'https://gitlab.com/OSPF1896/penguins-wardrobe'
       )
 
       expect(result).to.not.be.null
