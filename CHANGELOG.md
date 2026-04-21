@@ -39,4 +39,4 @@
 
 ### Forked from
 
-[Interested-Deving-1896/penguins-eggs-integrations](https://gitlab.com/openos-project/penguins-eggs-integrations) — 31 projects across 6 domains (Distribution, Decentralized, Config Management, Build Infrastructure, Dev Workflow, Packaging)
+[openos-project/penguins-eggs-integrations](https://gitlab.com/openos-project/penguins-eggs-integrations) — 31 projects across 6 domains (Distribution, Decentralized, Config Management, Build Infrastructure, Dev Workflow, Packaging)
