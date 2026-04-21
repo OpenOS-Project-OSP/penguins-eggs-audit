@@ -1,6 +1,6 @@
 # penguins-eggs-audit
 
-Integration framework extending [Penguins-Eggs](https://github.com/pieroproietti/penguins-eggs)
+Integration framework extending [Penguins-Eggs](https://gitlab.com/openos-project/penguins-eggs_deving/penguins-eggs)
 with 39 git-based projects across 8 feature domains, with a focus on security auditing,
 supply chain transparency, and OS hardening.
 
