@@ -1,10 +1,10 @@
 #!/bin/sh
 # gitpack install script for penguins-eggs
-# Enables: gitpack install Interested-Deving-1896/penguins-eggs
+# Enables: gitpack install pieroproietti/penguins-eggs
 
 set -eu
 
-REPO_URL="https://gitlab.com/OSPF1896/penguins-eggs"
+REPO_URL="https://github.com/pieroproietti/penguins-eggs"
 INSTALL_DIR="/usr/local/lib/penguins-eggs"
 BIN_LINK="/usr/local/bin/eggs"
 
