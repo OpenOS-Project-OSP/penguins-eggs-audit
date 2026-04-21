@@ -12,7 +12,7 @@ import path from 'node:path'
 type ExecFn = (cmd: string, opts?: { capture?: boolean; echo?: boolean }) => Promise<{ code: number; data: string; error?: string }>
 
 export interface DirDownloadOptions {
-  repoUrl: string       // e.g. https://gitlab.com/OSPF1896/penguins-wardrobe
+  repoUrl: string       // e.g. https://github.com/pieroproietti/penguins-wardrobe
   dirPath: string       // e.g. costumes/colibri
   branch?: string       // default: main
   destDir: string       // local destination

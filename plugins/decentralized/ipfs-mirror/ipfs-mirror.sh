@@ -11,7 +11,7 @@
 
 set -euo pipefail
 
-REPO_URL="${1:-https://gitlab.com/OSPF1896/penguins-eggs.git}"
+REPO_URL="${1:-https://github.com/pieroproietti/penguins-eggs.git}"
 REPO_NAME=$(basename "$REPO_URL" .git)
 WORK_DIR="/tmp/ipfs-mirror-${REPO_NAME}"
 MANIFEST_FILE="${WORK_DIR}/ipfs-manifest.json"
